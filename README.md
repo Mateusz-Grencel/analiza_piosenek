@@ -1,2 +1,2 @@
-# analiza_piosenek
-analiza piosenek
+# Analiza_piosenek
+Analiza piosenek
