@@ -1,0 +1,9 @@
+# Klucz API OpenAI
+OPENAI_API_KEY = "OpenAI_Key"
+
+# Klucz API Spotify
+SPOTIFY_CLIENT_ID = "Spotify_Client_ID"
+SPOTIFY_CLIENT_SECRET = "Spotify_Client_Secret"
+
+# Klucz API ElevenLabs
+ELEVENLABS_API_KEY = "ElevenLabs"
