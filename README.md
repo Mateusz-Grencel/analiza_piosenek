@@ -1,2 +1,2 @@
-# Analiza_piosenek
-Analiza piosenek
+# Music Playlist & Song Analysis App
+A Python application that integrates with Spotify, OpenAI, and ElevenLabs to create music playlists based on song titles, artists, or genres. The app also allows for the analysis of song lyrics, including sentiment analysis, word frequency, n-grams, named entity recognition, and syntactic analysis. Additionally, it offers text-to-speech features to read out song analyses.
