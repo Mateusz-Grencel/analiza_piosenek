@@ -30,4 +30,59 @@ The app also features a text-to-speech functionality using ElevenLabs to read ou
 ## Installation
 
 ### Prerequisites
-Make sure you have Python 3.7+ installed. You will also need the following dependencies:
+Make sure you have Python 3.7+ installed. You will also need the following instructions:
+
+#### Step 1: Activate your virtual environment
+If you're using a virtual environment (which is a good idea), activate it:
+
+**On Windows:**
+```bash
+.\venv\Scripts\activate
+```
+##### Step 2: Generate the requirements.txt file
+After activating the environment, run the command:
+
+pip freeze > requirements.txt
+
+## Setup ##
+Setup
+1. Clone the repository to your local machine:
+
+```bash 
+git clone https://github.com/Mateusz-Grencel/analiza_piosenek
+```
+
+2. Insert the API keys for OpenAI, Spotify, and ElevenLabs into the api_keys.py file.
+
+2. Run the application:
+```
+python main.py
+```
+
+## Usage
+
+### Main Features:
+- **Create Playlist**: Enter a song title, artist, or genre to generate a playlist.
+- **Analyze Song**: Enter a song title to analyze its lyrics using different analysis methods (e.g., sentiment, word frequency, n-grams).
+- **Current Playlists**: View and access your existing Spotify playlists.
+- **Text-to-Speech**: Listen to the analysis of song lyrics read aloud.
+
+### UI Walkthrough:
+Upon running the app, you will see the main interface where you can:
+- Create a playlist by entering song details.
+- Analyze a song by selecting an analysis method and entering a song title.
+- View your current playlists.
+
+## Contributions
+Contributions are welcome! Please fork the repository, make changes, and submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+- **OpenAI**: For providing powerful AI models to analyze and generate music recommendations.
+- **Spotify**: For providing access to a vast music library via their API.
+- **ElevenLabs**: For enabling text-to-speech capabilities.
+- **spaCy**: For advanced NLP tasks like named entity recognition and syntactic analysis.
+- **NLTK**: For sentiment analysis using VADER.
+- **Matplotlib**: For visualizing analysis results.
