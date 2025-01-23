@@ -1,5 +1,8 @@
 # Song Analysis App
 
+![Uploading image.png…]()
+
+
 ## Overview
 This Python application allows users to create custom music playlists based on song titles, artists, or genres using OpenAI's GPT-4 model and Spotify API. Additionally, it provides powerful song analysis capabilities, such as sentiment analysis, word frequency analysis, n-grams, named entity recognition, syntactic analysis, and more.
 
